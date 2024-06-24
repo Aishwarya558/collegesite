@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering college </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       body{
+        font-family: Arial,sans-serif;
+        margin: 0;
+        padding: 0;
+       }
+       .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        cursor: pointer;
+        
+       }
+       .background {
+        background-color:rgb(154, 158, 160);
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+     .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(154, 158, 160);
+    }
+ 
+    .logo img {
+        
+        width: 50%;
+        border-radius: 3px;
+    }
+    .nav-list {
+        width: 105%;
+        display: flex;
+        align-items: center;
+    }
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+ 
+    .nav-list li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(46, 43, 43);
+    }
+     
+     ul li ul li{
+        display: none;
+    }
+    ul li:hover ul li{
+        display: block;
+        background-color: rgb(223, 231, 236);
+        box-sizing:content-box;
+    }
+    .nav-list li a:hover {
+        color: rgb(46, 45, 45);
+    }
+    
+    </style>
+</head>
+<body>
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+     
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Department</a>
+                   <ul>
+                    <li><a href="#">CSE</a></li>
+                    <li><a href="#">ECE</a></li>
+                    <li><a href="#">CS-Alied</a></li>
+                    <li><a href="#">MECHINACAL</a></li>
+                    <li><a href="#">CIVIL</a></li>
+                   </ul>
+                </li>
+                <li><a href="#">Faculty</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Placement</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <centre>
+            <img src = "avn.jpeg" alt = "avn homepage" style = "width:1530px; height : 600px;">
+        </centre>
+</body>
+</html>  
